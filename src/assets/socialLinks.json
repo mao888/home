@@ -7,13 +7,13 @@
     },
     {
         "name": "Blog",
-        "icon": "/images/icon/bilibili.png",
+        "icon": "/images/imgs/blog.png",
         "tip": "去毕少侠博客看看",
         "url": "https://geekswg.js.cool/"
     },
     {
         "name": "Tiktok",
-        "icon": "/images/icon/bilibili.png",
+        "icon": "/images/imgs/tiktok2.png",
         "tip": "去看看抖音~~~",
         "url": "https://www.douyin.com/user/MS4wLjABAAAA7wEzz2PEAVqUc8bQxcCPGOV9r1zmjMooBHGKcVuP1Es?vid=7215755765561167142"
     },
