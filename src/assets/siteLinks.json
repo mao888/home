@@ -1,42 +1,44 @@
 [
-  [
-    {
-      "icon": "Blog",
-      "name": "博客",
-      "link": "https://blog.geekswg.top/"
-    },
-    {
-      "icon": "Cloud",
-      "name": "博客-Hexo",
-      "link": "https://hexo.geekswg.top/"
-    },
-    {
-      "icon": "CompactDisc",
-      "name": "音乐",
-      "link": "https://hexo.geekswg.top/music/?id=8138088068&server=tencent"
-    },
-    {
-      "icon": "Compass",
-      "name": "导航",
-      "link": "https://nav.geekswg.top/"
-    },
-    {
-      "icon": "LaptopCode",
-      "name": "站点监测",
-      "link": "https://status.geekswg.top/"
-    },
-    {
-      "icon": "Fire",
-      "name": "ChatGPT",
-      "link": "https://chatgpt.geekswg.top/"
-    }
-  ],
-
-  [
-    {
-      "icon": "LaptopCode",
-      "name": "站点监测",
-      "link": "https://status.imsyy.top/"
-    }
-  ]
+  {
+    "icon": "Blog",
+    "name": "博客",
+    "link": "https://blog.geekswg.top/"
+  },
+  {
+    "icon": "Cloud",
+    "name": "博客-Hexo",
+    "link": "https://hexo.geekswg.top/"
+  },
+  {
+    "icon": "CompactDisc",
+    "name": "音乐",
+    "link": "https://hexo.geekswg.top/music/?id=8138088068&server=tencent"
+  },
+  {
+    "icon": "Compass",
+    "name": "导航",
+    "link": "https://nav.geekswg.top/"
+  },
+  {
+    "icon": "LaptopCode",
+    "name": "站点监测",
+    "link": "https://status.geekswg.top/"
+  },
+  {
+    "icon": "Fire",
+    "name": "ChatGPT",
+    "link": "https://chatgpt.geekswg.top/"
+  },
+  {
+    "icon": "LaptopCode",
+    "name": "站点监测",
+    "link": "https://status.imsyy.top/"
+  }
+],
+[
+  {
+    "icon": "LaptopCode",
+    "name": "站点监测",
+    "link": "https://status.imsyy.top/"
+  }
 ]
