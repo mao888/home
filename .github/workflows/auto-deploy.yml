@@ -27,18 +27,22 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
 
-    # 安装依赖
-    - name: Install dependencies
-      run: |
-        # 安装 yarn
-        npm install -g yarn
-        # 安装依赖
-        yarn install
-    # 运行构建脚本
-    - name: Build Site
-      run: |
-        # 构建
-        yarn build
+    # 检出 Git 仓库
+    - name: Check out git repository
+      uses: actions/checkout@v4.1.1
+    # 安装 Node.js
+    - name: Install Node.js
+      uses: actions/setup-node@v4.0.0
+      with:
+        node-version: "18.x"
+    # 安装项目依赖
+    - name: Install Dependencies
+      run: npm install
+    # 构建程序
+    - name: Build Website
+      run: npm run build
+      env:
+        GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
 
     # 查看 workflow 的文档来获取更多信息
     # @see https://github.com/crazy-max/ghaction-github-pages
