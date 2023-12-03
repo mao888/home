@@ -5,7 +5,7 @@
       <el-col :span="12">
         <div class="left">
           <Hitokoto />
-          <Music />
+          <Music v-if="playerHasId" />
         </div>
       </el-col>
       <el-col :span="12">
@@ -18,11 +18,7 @@
               <span class="sm-hidden">{{ currentTime.weekday }}</span>
             </div>
             <div class="text">
-              <span>
-                {{ currentTime.hour }}:{{ currentTime.minute }}:{{
-                  currentTime.second
-                }}</span
-              >
+              <span> {{ currentTime.hour }}:{{ currentTime.minute }}:{{ currentTime.second }}</span>
             </div>
           </div>
           <Weather />
@@ -33,12 +29,11 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onBeforeUnmount } from "vue";
 import { getCurrentTime } from "@/utils/getTime";
 import { mainStore } from "@/store";
-import Music from "@/components/Music/index.vue";
-import Hitokoto from "@/components/Hitokoto/index.vue";
-import Weather from "@/components/Weather/index.vue";
+import Music from "@/components/Music.vue";
+import Hitokoto from "@/components/Hitokoto.vue";
+import Weather from "@/components/Weather.vue";
 
 const store = mainStore();
 
@@ -46,10 +41,17 @@ const store = mainStore();
 const currentTime = ref({});
 const timeInterval = ref(null);
 
+// 播放器 id
+const playerHasId = import.meta.env.VITE_SONG_ID;
+
+// 更新时间
+const updateTimeData = () => {
+  currentTime.value = getCurrentTime();
+};
+
 onMounted(() => {
-  timeInterval.value = setInterval(() => {
-    currentTime.value = getCurrentTime();
-  }, 1000);
+  updateTimeData();
+  timeInterval.value = setInterval(updateTimeData, 1000);
 });
 
 onBeforeUnmount(() => {
@@ -110,8 +112,7 @@ onBeforeUnmount(() => {
       flex-direction: column;
       align-items: center;
       justify-content: space-between;
-      animation: fade;
-      -webkit-animation: fade 0.5s;
+      animation: fade 0.5s;
       .time {
         font-size: 1.1rem;
         text-align: center;
