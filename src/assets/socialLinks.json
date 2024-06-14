@@ -3,36 +3,42 @@
         "name": "Github",
         "icon": "/images/icon/github.png",
         "tip": "去 Github 看看",
-        "url": "https://github.com/geekswg"
+        "url": "https://github.com/mao888"
     },
     {
         "name": "Blog",
-        "icon": "/images/imgs/blog.png",
-        "tip": "去毕少侠博客看看",
-        "url": "https://geekswg.js.cool/"
+        "icon": "/images/icon/blog.png",
+        "tip": "去毛的博客看看",
+        "url": "https://blog.huchao.vip/"
     },
     {
-        "name": "Tiktok",
-        "icon": "/images/imgs/tiktok2.png",
-        "tip": "去看看抖音~~~",
-        "url": "https://www.douyin.com/user/MS4wLjABAAAA7wEzz2PEAVqUc8bQxcCPGOV9r1zmjMooBHGKcVuP1Es?vid=7215755765561167142"
+        "name": "Gitee",
+        "icon": "/images/icon/gitee.png",
+        "tip": "去 gitee 看看",
+        "url": "https://gitee.com/hu_maomao"
     },
     {
         "name": "BiliBili",
         "icon": "/images/icon/bilibili.png",
         "tip": "(゜-゜)つロ 干杯 ~",
-        "url": "https://space.bilibili.com/39865904"
+        "url": "https://space.bilibili.com/289144374?spm_id_from=333.1007.0.0"
     },
     {
         "name": "QQ",
         "icon": "/images/icon/qq.png",
         "tip": "有什么事吗？",
-        "url": "https://res.abeim.cn/api/qq/?qq=1101303970"
+        "url": "https://qm.qq.com/q/28831KtGvY"
     },
     {
         "name": "Email",
         "icon": "/images/icon/email.png",
         "tip": "来封 Email ~",
-        "url": "mailto:geekswg@qq.com"
+        "url": "2557523039@qq.com"
+    },
+    {
+        "name": "Twitter",
+        "icon": "/images/icon/twitter.png",
+        "tip": "你懂的 ~",
+        "url": "https://x.com/v5m30Xj70Z5IS5C"
     }
 ]

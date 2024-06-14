@@ -5,7 +5,7 @@
 简单的小主页，原来的看够了，重新弄了一个
 </p>
 
-![無名の主页](https://s2.loli.net/2022/07/14/K5JigfvDoNewtuS.webp)
+![毛の主页](https://s2.loli.net/2022/07/14/K5JigfvDoNewtuS.webp)
 
 >主页的 Logo 字体已经过压缩，若用本站 Logo 以外的字母会变回默认字体，这里是 [完整字体](https://file.imsyy.top/font/Other/Pacifico-Regular.ttf)，若无法下载，可将字体目录下的 `Pacifico-Regular-all.ttf` 进行替换
 
@@ -13,9 +13,7 @@
 
 >由于 CDN 缓存原因，查看最新效果可能需要 `Ctrl` + `F5` 强制刷新浏览器缓存
 
-- [無名の主页](https://www.imsyy.top)
-- [無名の主页 - Dev](https://home-imsyy.vercel.app)
-- [無名の主页 - 备用线路](https://home-5iw.pages.dev)
+- [毛の主页](https://home.huchao.vip/)
 
 ### 功能
 
@@ -41,16 +39,22 @@
 ```bash
 # 安装 pnpm
 npm install -g pnpm
-
+```
+```shell
 # 安装依赖
 pnpm install
+```
 
+```shell
 # 预览
 pnpm dev
+```
 
+```shell
 # 构建
 pnpm build
 ```
+
 > 构建完成后，静态资源会在 **`dist` 目录** 中生成，可将 **`dist` 文件夹下的文件**上传至服务器，也可使用 `Vercel` 等托管平台一键导入并自动部署
 
 ### 网站链接
