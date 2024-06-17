@@ -30,13 +30,16 @@
 
 * **安装** [node.js](https://nodejs.org/zh-cn/) **环境**
 
-  > node > 16.16.0  
+  > node > 18.12.0  
   > npm > 8.15.0
-  
+```shell
+nvm install 20
+```
 * 然后以 **管理员权限** 运行 `cmd` 终端，并 `cd` 到 项目根目录
 * 在 `终端` 中输入：
 
-```bash
+
+```shell
 # 安装 pnpm
 npm install -g pnpm
 ```
@@ -65,7 +68,7 @@ pnpm build
 {
   "icon": "Blog",						
   "name": "博客",						
-  "link": "https://blog.imsyy.top/"	
+  "link": "https://blog.huchao.vip/"	
 },
 ```
 

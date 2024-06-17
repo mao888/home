@@ -5,7 +5,7 @@ English | [Chinese](./README.md)
 Simple little homepage, had enough of the original one and made a new one
 </p>
 
-![無名の主页](https://s2.loli.net/2022/07/14/K5JigfvDoNewtuS.webp)
+![毛の主页](https://s2.loli.net/2022/07/14/K5JigfvDoNewtuS.webp)
 
 >The logo font on the home page has been compressed, so if you use a font other than this logo, it will change back to the default font, Here is the [full font](https://file.4everland.app/font/Other/Pacifico-Regular.ttf)  
 
@@ -13,9 +13,7 @@ Simple little homepage, had enough of the original one and made a new one
 
 >Due to CDN caching, you may need `Ctrl` + `F5` to force a browser cache refresh to see the latest results
 
-- [無名の主页](https://www.imsyy.top)
-- [無名の主页 - Dev](https://home-imsyy.vercel.app)
-- [無名の主页 - Standby](https://home-5iw.pages.dev)
+- [毛の主页](https://home.huchao.vip/)
 
 ### Functions
 
@@ -36,20 +34,28 @@ Simple little homepage, had enough of the original one and made a new one
 
   > node > 16.16.0  
   > npm > 8.15.0
-  
+```shell
+nvm install 20
+```
 * Then run the `cmd` terminal with **administrator privileges** and `cd` to the project root directory
 * In the `terminal` type:
 
-```bash
+```shell
 # Install pnpm
 npm install -g pnpm
+```
 
+```shell
 # Install the dependencies
 pnpm install
+```
 
+```shell
 # Preview
 pnpm dev
+```
 
+```shell
 # Build
 pnpm build
 ```
