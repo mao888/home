@@ -6,8 +6,13 @@
   },
   {
     "icon": "Cloud",
-    "name": "五子棋",
+    "name": "五子棋(PC端)",
     "link": "http://gobang.huchao.vip/"
+  },
+  {
+    "icon": "Cloud",
+    "name": "贪吃蛇(PC端)",
+    "link": "https://greedy-snake.huchao.vip/"
   },
   {
     "icon": "CompactDisc",
