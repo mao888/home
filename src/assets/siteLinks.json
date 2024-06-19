@@ -5,6 +5,11 @@
     "link": "https://blog.huchao.vip/"
   },
   {
+    "icon": "Compass",
+    "name": "起始页",
+    "link": "https://start.huchao.vip/"
+  },
+  {
     "icon": "Cloud",
     "name": "五子棋(PC端)",
     "link": "http://gobang.huchao.vip/"
