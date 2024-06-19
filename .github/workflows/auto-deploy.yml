@@ -50,6 +50,10 @@ jobs:
       - name: Build project
         run: pnpm run build
 
+      # 创建 CNAME 文件
+      - name: Create CNAME file
+        run: echo "home.huchao.vip" > ./dist/CNAME
+
       # 部署到 GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
