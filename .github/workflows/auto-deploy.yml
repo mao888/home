@@ -20,22 +20,36 @@ jobs:
       # 检出 Git 仓库
       - name: Check out git repository
         uses: actions/checkout@v4
-      
+
       # 设置 Node.js
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-          cache: 'npm'
-      
+
+      # 安装 pnpm
+      - name: Install pnpm
+        run: npm install -g pnpm
+
+      # 缓存 pnpm 缓存和 node_modules
+      - name: Cache pnpm cache and node_modules
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.pnpm-store
+            node_modules
+          key: ${{ runner.os }}-pnpm-cache-${{ hashFiles('pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-cache-
+
       # 安装项目依赖
       - name: Install dependencies
-        run: npm install
-      
+        run: pnpm install
+
       # 构建项目
       - name: Build project
-        run: npm run build
-      
+        run: pnpm run build
+
       # 部署到 GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
