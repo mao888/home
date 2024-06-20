@@ -48,6 +48,12 @@
         "url": "https://www.facebook.com/profile.php?id=100087783797591"
     },
     {
+        "name": "Telegram",
+        "icon": "/images/icon/telegram.png",
+        "tip": "与我在 Telegram 上畅聊，不见不散！",
+        "url": "https://t.me/telehuchao"
+    },
+    {
         "name": "Twitter",
         "icon": "/images/icon/twitter.png",
         "tip": "关注我的 Twitter~",
