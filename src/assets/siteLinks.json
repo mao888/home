@@ -5,19 +5,29 @@
     "link": "https://blog.huchao.vip/"
   },
   {
-    "icon": "Cloud",
+    "icon": "Search",
+    "name": "搜索",
+    "link": "https://start.huchao.vip/"
+  },
+  {
+    "icon": "PhotoVideo",
+    "name": "图床",
+    "link": "https://picx.huchao.vip/"
+  },
+  {
+    "icon": "Chess",
     "name": "五子棋(PC端)",
     "link": "http://gobang.huchao.vip/"
   },
   {
-    "icon": "Cloud",
+    "icon": "Gamepad",
     "name": "贪吃蛇(PC端)",
     "link": "https://greedy-snake.huchao.vip/"
   },
   {
-    "icon": "CompactDisc",
-    "name": "音乐",
-    "link": "https://hexo.geekswg.top/music/?id=8138088068&server=tencent"
+    "icon": "LaptopCode",
+    "name": "站点监测",
+    "link": "https://status.huchao.vip/"
   },
   {
     "icon": "Compass",
@@ -25,9 +35,9 @@
     "link": "https://nav.geekswg.top/"
   },
   {
-    "icon": "LaptopCode",
-    "name": "站点监测",
-    "link": "https://status.huchao.vip/"
+    "icon": "CompactDisc",
+    "name": "音乐",
+    "link": "https://hexo.geekswg.top/music/?id=8138088068&server=tencent"
   },
   {
     "icon": "Fire",
