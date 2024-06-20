@@ -2,32 +2,38 @@
     {
         "name": "Github",
         "icon": "/images/icon/github.png",
-        "tip": "去 Github 看看",
+        "tip": "来 GitHub 探索我的项目吧!",
         "url": "https://github.com/mao888"
-    },
-    {
-        "name": "Blog",
-        "icon": "/images/icon/blog.png",
-        "tip": "去毛的博客看看",
-        "url": "https://blog.huchao.vip/"
-    },
-    {
-        "name": "Gitee",
-        "icon": "/images/icon/gitee.png",
-        "tip": "去 gitee 看看",
-        "url": "https://gitee.com/hu_maomao"
     },
     {
         "name": "BiliBili",
         "icon": "/images/icon/bilibili.png",
-        "tip": "(゜-゜)つロ 干杯 ~",
+        "tip": "(゜-゜)つロ 干杯~ 一起看视频吧!",
         "url": "https://space.bilibili.com/289144374?spm_id_from=333.1007.0.0"
+    },
+    {
+        "name": "CSDN",
+        "icon": "/images/icon/csdn.png",
+        "tip": "来 CSDN 看我的技术分享~",
+        "url": "https://blog.csdn.net/qq_45696377"
     },
     {
         "name": "QQ",
         "icon": "/images/icon/qq.png",
         "tip": "有什么事吗？",
         "url": "https://qm.qq.com/q/28831KtGvY"
+    },
+    {
+        "name": "牛客",
+        "icon": "/images/icon/niuke.png",
+        "tip": "有什么事吗？",
+        "url": "https://www.nowcoder.com/users/621876812"
+    },
+    {
+        "name": "知乎",
+        "icon": "/images/icon/zhihu.png",
+        "tip": "有什么事吗？",
+        "url": "https://www.zhihu.com/people/yeshent"
     },
     {
         "name": "Email",
