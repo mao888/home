@@ -20,31 +20,37 @@
     {
         "name": "QQ",
         "icon": "/images/icon/qq.png",
-        "tip": "有什么事吗？",
+        "tip": "加我 QQ，有事聊聊~",
         "url": "https://qm.qq.com/q/28831KtGvY"
     },
     {
         "name": "牛客",
         "icon": "/images/icon/niuke.png",
-        "tip": "有什么事吗？",
+        "tip": "一起刷题交流吧~",
         "url": "https://www.nowcoder.com/users/621876812"
     },
     {
         "name": "知乎",
         "icon": "/images/icon/zhihu.png",
-        "tip": "有什么事吗？",
+        "tip": "来知乎交流想法~",
         "url": "https://www.zhihu.com/people/yeshent"
     },
     {
         "name": "Email",
         "icon": "/images/icon/email.png",
-        "tip": "来封 Email ~",
+        "tip": "给我发封邮件吧~",
         "url": "2557523039@qq.com"
+    },
+    {
+        "name": "Facebook",
+        "icon": "/images/icon/facebook.png",
+        "tip": "来 Facebook 看看我~",
+        "url": "https://www.facebook.com/profile.php?id=100087783797591"
     },
     {
         "name": "Twitter",
         "icon": "/images/icon/twitter.png",
-        "tip": "你懂的 ~",
+        "tip": "关注我的 Twitter~",
         "url": "https://x.com/v5m30Xj70Z5IS5C"
     }
 ]
