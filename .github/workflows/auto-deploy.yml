@@ -53,10 +53,6 @@ jobs:
       # 创建 CNAME 文件
       - name: Create CNAME file
         run: echo "home.huchao.vip" > ./dist/CNAME
-      
-      # 在推送之前，先拉取远程分支的更改，解决任何冲突，然后再推送你的更改
-      - name: Pull remote gh-pages branch
-        run: git pull origin gh-pages --rebase
 
       # 部署到 GitHub Pages
       - name: Deploy to GitHub Pages
@@ -64,3 +60,5 @@ jobs:
         with:
           github_token: ${{ secrets.ACCESS_TOKEN }}
           publish_dir: ./dist
+          # 强制推送
+          force_orphan: true
