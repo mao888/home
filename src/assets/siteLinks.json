@@ -28,25 +28,5 @@
     "icon": "LaptopCode",
     "name": "站点监测",
     "link": "https://status.huchao.vip/"
-  },
-  {
-    "icon": "Compass",
-    "name": "导航",
-    "link": "https://nav.geekswg.top/"
-  },
-  {
-    "icon": "CompactDisc",
-    "name": "音乐",
-    "link": "https://hexo.geekswg.top/music/?id=8138088068&server=tencent"
-  },
-  {
-    "icon": "Fire",
-    "name": "ChatGPT",
-    "link": "https://chatgpt.geekswg.top/"
-  },
-  {
-    "icon": "LaptopCode",
-    "name": "文档",
-    "link": "https://gavinblog.github.io/docs/#/"
   }
 ]
