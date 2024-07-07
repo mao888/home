@@ -1,7 +1,7 @@
 简体中文 | [English](./README_EN.md) 
 
 <p>
-<strong><h2>毛の主页</h2></strong>
+<strong><h2>毛の主页</h2></strong> 
 简单的小主页
 </p>
 
