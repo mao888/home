@@ -15,6 +15,11 @@
     "link": "https://picx.huchao.vip/"
   },
   {
+    "icon": "LaptopCode",
+    "name": "站点监测",
+    "link": "https://status.huchao.vip/"
+  },
+  {
     "icon": "Gamepad",
     "name": "花样贪吃蛇",
     "link": "https://fancy-snake.huchao.vip/"
@@ -29,9 +34,4 @@
     "name": "贪吃蛇(网页端)",
     "link": "https://greedy-snake.huchao.vip/"
   },
-  {
-    "icon": "LaptopCode",
-    "name": "站点监测",
-    "link": "https://status.huchao.vip/"
-  }
 ]
