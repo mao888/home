@@ -15,13 +15,18 @@
     "link": "https://picx.huchao.vip/"
   },
   {
+    "icon": "Gamepad",
+    "name": "花样贪吃蛇(网页端)",
+    "link": "https://fancy-snake.huchao.vip/"
+  },
+  {
     "icon": "Chess",
     "name": "五子棋(PC端)",
     "link": "http://gobang.huchao.vip/"
   },
   {
     "icon": "Gamepad",
-    "name": "贪吃蛇(PC端)",
+    "name": "贪吃蛇(网页端)",
     "link": "https://greedy-snake.huchao.vip/"
   },
   {
