@@ -2,10 +2,10 @@ English | [Chinese](./README.md)
 
 <p>
 <strong><h2>毛の主页</h2></strong>
-Simple little homepage, had enough of the original one and made a new one
+Simple little homepage
 </p>
 
-![毛の主页](https://github.com/mao888/home/assets/59285170/e9d25fb9-c796-481d-95b2-489ba99caaa9)
+![毛の主页](https://github.com/mao888/picx-images-hosting/raw/master/home/image.92pzye0gr5.webp)
 
 >The logo font on the home page has been compressed, so if you use a font other than this logo, it will change back to the default font, Here is the [full font](https://file.4everland.app/font/Other/Pacifico-Regular.ttf)  
 
