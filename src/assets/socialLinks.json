@@ -30,12 +30,6 @@
         "url": "https://www.nowcoder.com/users/621876812"
     },
     {
-        "name": "知乎",
-        "icon": "/images/icon/zhihu.png",
-        "tip": "来知乎交流想法~",
-        "url": "https://www.zhihu.com/people/yeshent"
-    },
-    {
         "name": "Email",
         "icon": "/images/icon/email.png",
         "tip": "给我发封邮件吧~",
