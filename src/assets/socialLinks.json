@@ -1,5 +1,11 @@
 [
     {
+        "name": "Blog",
+        "icon": "/images/icon/blog.png",
+        "tip": "来我的博客看看吧!",
+        "url": "https://blog.huchao.vip/"
+    },
+    {
         "name": "Github",
         "icon": "/images/icon/github.png",
         "tip": "来 GitHub 探索我的项目吧!",
@@ -30,10 +36,16 @@
         "url": "https://www.nowcoder.com/users/621876812"
     },
     {
-        "name": "Email",
-        "icon": "/images/icon/email.png",
-        "tip": "给我发封邮件吧~",
-        "url": "2557523039@qq.com"
+        "name": "WeChat",
+        "icon": "/images/icon/wechat.png",
+        "tip": "来我的微信公众号看看吧!",
+        "url": "https://img.huchao.vip/file/wx/1781539648345_GopherMao.jpg"
+    },
+    {
+        "name": "知乎",
+        "icon": "/images/icon/zhihu.png",
+        "tip": "来我的知乎看看吧!",
+        "url": "https://www.zhihu.com/people/yeshent"
     },
     {
         "name": "Facebook",
